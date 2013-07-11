@@ -12,7 +12,7 @@ layout: layout
 				  <h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
             
-           <small>★ <span class="date">{{ page.author }}</span></small>
+           <small>★ by <span class="date">{{ post.author }}</span></small>
   		</header>
 		
     	{{ content }}
