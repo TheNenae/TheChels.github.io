@@ -1,3 +1,2 @@
-### Blog
 
-Source code of blog.thecellarroom.net/
+Source code of TheChels.github.io
