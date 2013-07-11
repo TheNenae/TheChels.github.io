@@ -12,7 +12,7 @@ layout: layout
 				  <h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
             
-           <small>★ by <span class="date">{{ page.author }}</span></small>
+           <small>★ by <span class="date"><a href="/{{ post.author }}">{{ post.author }}</a></span></small>
   		</header>
 		
     	{{ content }}
@@ -20,7 +20,6 @@ layout: layout
 
         <p>
          <small>★ <span class="date">{{ page.date | date: "%B %e, %Y" }}</span> | 
-         categories: {{ page.categories | join: ', ' }}
          <a href="{{ post.url }}" class="permalink" title="Permalink">permalink →</a> | 
          <a href="{{ post.url }}" class="comment" title="Comment">Comment →</a>
 	</small>	
