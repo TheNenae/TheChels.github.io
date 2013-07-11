@@ -1,0 +1,30 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>TheChels.me : Short form blogging</title>
+ <link href="http://thechels.github.io/atom.xml" rel="self"/>
+ <link href="http://thechels.github.io"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://thechels.github.io</id>
+ <author>
+   <name>TheChels.me</name>
+   <email>editor@thechels.co.uk</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title | xml_escape }}</title>
+   <link href="http://blog.thecellarroom.net{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://http://blog.thecellarroom.net{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}
+       <p>
+     <a target="_blank" href="http://www.amazon.co.uk/?_encoding=UTF8&camp=1634&creative=19450&linkCode=ur2&tag=chelseastats-21">Support TheChels by shopping at Amazon</a></p>
+     </content>
+ </entry>
+ {% endfor %}
+ 
+</feed>

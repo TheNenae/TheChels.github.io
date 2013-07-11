@@ -1,0 +1,38 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>TCR: {{ site.name }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+		{% for post in site.posts limit:10 %}
+			{% if post.link %}
+			<item>
+				<title>→ {{ post.title }}</title>
+				<description>
+					{{ post.content | xml_escape }}
+					<p><a href="{{ site.url }}{{ post.url }}">Permalink</a> | <a href="http://www.thechels.co.uk/Amazon">Amazon</a></p>
+				</description>
+				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+				<link>{{ post.link }}</link>
+				<guid isPermaLink="true">{{ post.link }}</guid>
+			</item>
+			{% else %}
+			<item>
+				<title>{{ post.title }}</title>
+				<description>
+					{{ post.content | xml_escape }}
+					<a href="{{ site.url }}{{ post.url }}">Permalink</a> | <a target="_blank" href="http://www.amazon.co.uk/?_encoding=UTF8&camp=1634&creative=19450&linkCode=ur2&tag=chelseastats-21">Support TheCellarRoom by shopping at Amazon</a><img src="https://www.assoc-amazon.co.uk/e/ir?t=chelseastats-21&l=ur2&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+				</description>
+				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+				<link>{{ site.url }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+			</item>
+			{% endif %}
+		{% endfor %}
+	</channel>
+</rss>

@@ -1,0 +1,24 @@
+safe: true
+auto: true
+server: true
+baseurl: http://thechels.github.io
+future: false
+lsi: false
+pygments: true
+paginate: 3
+markdown: rdiscount
+timezone: Europe/London
+source:      .
+destination: ./_site
+layouts:     ./_layouts
+includes:     ./_includes
+disqus_shortname: thechelsme
+google_analytics_id: True
+permalink: /:year/:month/:day/:title
+
+## Variables
+title : TheChels.me
+description : Short form blogging and blogging directory
+url : http://thechels.github.io
+tagline : Short form blogging and blogging directory
+production_url : http://thechels.github.io
