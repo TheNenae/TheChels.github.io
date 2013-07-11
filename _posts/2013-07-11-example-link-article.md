@@ -4,7 +4,7 @@ layout: post
 title: Example linked article
 link: #
 date: 2013-07-11 22:00:00
-category: ChelseaStats
+categories: ChelseaStats
 author: ChelseaStats
 
 ---
