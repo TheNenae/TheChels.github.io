@@ -12,7 +12,7 @@ layout: layout
 				  <h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
             
-           <small>★ by <span class="date">{{ post.author }}</span></small>
+           <small>★ by <span class="date">{{ page.author }}</span></small>
   		</header>
 		
     	{{ content }}
@@ -24,10 +24,6 @@ layout: layout
          <a href="{{ post.url }}" class="comment" title="Comment">Comment →</a>
 	</small>	
 	</p>    
-	
-	<div style="float:right; clear:both;">
-        <iframe style="border: 0; margin: 0; padding: 0;" src="https://www.gittip.com/ChelseaStats/widget.html" width="48pt" height="22pt"></iframe>
-	</div>
 	
         <p>&nbsp;</p>
         
