@@ -11,7 +11,7 @@ description: Archive
 	<ul class="posts">
 	
       <li style="margin-bottom:1em;">
-       <small>★ <span class="date">{{ post.date | date: "%e %B, %Y" }} →</span> <a href="{{ post.url }}">{{ post.title }}</a></small>
+       <small>★ <a href="{{ post.url }}">{{ post.title }} →</a> : <span class="date">published on: {{ post.date | date: "%e %B, %Y" }}</span></small>
       </li>
             
 	</ul>
