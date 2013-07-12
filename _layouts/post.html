@@ -19,7 +19,7 @@ layout: layout
   	    <p>&nbsp;</p>
 
         <p>
-         <small>★ {{ page.date | date_to_string }} → 
+         <small>★ {{ page.date | date "%d %b %Y" }} → 
             <a href="{{ post.url }}" class="permalink" title="Permalink">permalink</a> 
             → <a href="{{ post.url }}" class="comment" title="Comment">Comment</a> 
             →
@@ -32,7 +32,7 @@ layout: layout
     		{% for post in site.related_posts limit:3 %}
       		<li>
                 <small> 
-                   ★ {{ post.date | date_to_string }} → <a href="{{ post.url }}">{{ post.title }}</a>
+                   ★ {{ post.date | date "%d %b %Y" }} → <a href="{{ post.url }}">{{ post.title }}</a>
                 </small>
             </li>
     		{% endfor %}
