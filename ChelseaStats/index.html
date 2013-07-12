@@ -8,7 +8,9 @@ author: ChelseaStats
 {% for post in site.categories.chelseastats limit: 20 %}
   <div class="post_info">
     <li>
-         <small><span>★ <a href="{{ post.url }}">{{ post.title }} →</a> : published  on {{ post.date | date:"%Y-%m-%d" }} </span></small>
+         <small>
+             ★ {{ post.date | date_to_string }} → <a href="{{ post.url }}">{{ post.title }}</a>
+        </small>
     </li>
     </div>
   {% endfor %}
