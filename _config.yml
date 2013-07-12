@@ -4,7 +4,6 @@ server: true
 baseurl: http://thechels.github.io
 future: false
 lsi: false
-pygments: true
 paginate: 3
 markdown: rdiscount
 timezone: Europe/London
