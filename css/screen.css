@@ -1,14 +1,17 @@
 /******************************
 /* Body styles 
 /******************************/
+
+* { text-rendering: optimizeLegibility;}
+
 body {
 	color: #222222;
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, tahoma, verdana Arial, sans-serif;
 	font-size: 14px;
 }
 a {
 	text-decoration: underline;
-	color: #355380;
+	color: #444;
 }
 a:hover {
 	text-decoration: none;
@@ -24,15 +27,48 @@ a:hover {
 	float: none;
 }
 
+.j {text-align:justify;}
+.r {text-align:right;}
+.c {text-align:right;}
+/* no left as it's the default */
+
+/******************************
+/* tables
+/***************************
+table {background-color:#EEE; width:100%;text-align:left;margin-bottom:2em; border:1px solid #666; font-size:0.75em;}
+table thead tr th, table tfoot tr th { border:1px solid #777; padding:1px;font-weight:bold;}
+table, tr, th, td, tbody, thead{border-collapse:collapse; border:1px solid #bbb;}
+***/
+
+/******************************
+/* tablesorter
+/******************************/
+
+table.tablesorter{background-color:#EEE;font-size:8pt;width:100%;text-align:left;margin-bottom:16px;}
+table.tablesorter thead tr th,table.tablesorter tfoot tr th{background-color:#EEE;border:1px solid #ddd;font-size:8pt;padding:2px 3px 2px 2px; font-weight:bold;}
+table.tablesorter thead tr .header{background-image:url(img/sort.gif);background-repeat:no-repeat;background-position:center right;cursor:pointer;font-weight:bold;}
+table.tablesorter tbody td{color:#3d3d3d;padding:2px 3px 2px 2px; background-color:#FFF;vertical-align:top;}
+table.tablesorter tbody tr.odd td{background-color:#f0f0f6;}
+table.tablesorter thead tr .headerSortUp{background-image:url(img/desc.gif);background-color:#8dbdd8;}
+table.tablesorter thead tr .headerSortDown{background-image:url(img/asc.gif);background-color:#8dbdd8;}
+
+
+/******************************
+/* headers 
+/******************************/
 h1 { font-size: 22px; }
 h2 { font-size: 20px; }
 h3 { font-size: 18px; }
 h4 { font-size: 16px; }
 h5 { font-size: 14px; }
 h6 { font-size: 12px; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Playfair Display', Georgia, serif;}
+h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', 'Helvetica Neue', Georgia, serif;}
+
+.os4 { font-family: 'Open Sans', sans-serif; font-weight: 400; }
+.os7 { font-family: 'Open Sans', sans-serif; font-weight: 700; }
 
 aside.ad {text-align:center; margin-left: auto; margin-right:auto; width:90%;}
+
 /******************************
 /* Media Queries 
 /******************************/
@@ -50,11 +86,19 @@ aside.ad {text-align:center; margin-left: auto; margin-right:auto; width:90%;}
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
 	#wrapper { width: 92%; }
+    table, th, tr, td { font-size:9px;}
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 720px) {
+	#wrapper { width: 92%; }
+    table, th, tr, td { font-size:9px;}
 }
 
 /******************************
 /* Header 
 /******************************/
+
 #masterhead {
 	padding: 20px 0;
 	margin: 0 0 20px 0; 
@@ -72,6 +116,7 @@ aside.ad {text-align:center; margin-left: auto; margin-right:auto; width:90%;}
 	width: 100%;
 	margin: 0;
 	display:block;
+	padding-bottom:0.5em;
 	border-bottom:1px solid #888;
 }
 
@@ -135,7 +180,7 @@ header p { text-align:center;}
 	color: #696969;
 	border-left: 2px solid #D4D4D4;
 	font-size: 14px;
-	font-family: "Muli", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 20px 15px;
 	padding: 0 20px;
 }
@@ -204,3 +249,6 @@ ul.projects li {margin-bottom:2em;}
 	float: left;
 	text-align: right;
 }
+
+
+
