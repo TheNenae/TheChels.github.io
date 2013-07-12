@@ -28,7 +28,7 @@ description: Short form bloggging and links to Chelsea FC fan blogs
   		{{ post.content }}
 		{% endif %}
 
-        <p><small>★ {{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}" class="permalink" title="Permalink">Read More</a> → <a href="{{ post.url }}" class="permalink" title="Permalink">Comment</a> → </small></p>
+        <p><small>★ {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" class="permalink" title="Permalink">Read More</a> → <a href="{{ post.url }}" class="permalink" title="Permalink">Comment</a> → </small></p>
 	</article>
 	
 {% if forloop.first %}

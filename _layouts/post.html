@@ -12,14 +12,14 @@ layout: layout
 				  <h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
             
-           <small>★ by <a href="/{{ post.author }}">{{ post.author }}</a></small>
+           <small>★ by <a href="/{{ page.author }}">{{ page.author }}</a></small>
   		</header>
 		
     	{{ content }}
   	    <p>&nbsp;</p>
 
         <p>
-         <small>★ {{ page.date | date: "%d %b %Y" }} → 
+         <small>★ {{ page.date | date: "%Y-%m-%d" }} → 
             <a href="{{ post.url }}" class="permalink" title="Permalink">permalink</a> 
             → <a href="{{ post.url }}" class="comment" title="Comment">Comment</a> 
             →
@@ -32,7 +32,7 @@ layout: layout
     		{% for post in site.related_posts limit:3 %}
       		<li>
                 <small> 
-                   ★ {{ post.date | date: "%d %b %Y" }} → <a href="{{ post.url }}">{{ post.title }}</a>
+                   ★ {{ post.date | date: "%Y-%m-%d" }} → <a href="{{ post.url }}">{{ post.title }}</a>
                 </small>
             </li>
     		{% endfor %}
