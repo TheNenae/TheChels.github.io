@@ -31,7 +31,9 @@ a:hover {
 .r {text-align:right;}
 .c {text-align:right;}
 /* no left as it's the default */
-
+ .pagination { display:block;}
+.previous {float:left;}
+.next {float:right;}
 /******************************
 /* tables
 /***************************
