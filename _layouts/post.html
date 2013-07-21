@@ -7,27 +7,28 @@ layout: layout
   		<header>
 				
 				{% if page.link %}
-				  <h3>→ <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+<h3>→ <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% else %}
-				  <h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+<h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
-            
-           <small>★ by <a href="/{{ page.author }}">{{ page.author }}</a></small>
+
   		</header>
 		
     	{{ content }}
   	    <p>&nbsp;</p>
-
-        <p>
-         <small>★ {{ page.date | date: "%Y-%m-%d" }} → 
-            <a href="{{ post.url }}" class="permalink" title="Permalink">permalink</a> 
-            → <a href="{{ post.url }}" class="comment" title="Comment">Comment</a> 
-            →
-        </small>	
-	</p>    
-	
+  
+	    <p> 
+            <small>
+                ★ by <a href="/{{ page.author }}">{{ page.author }}</a> →
+                  dated: {{ page.date | date: "%Y-%m-%d" }} → 
+                <a href="{{ post.url }}" class="permalink" title="Permalink">Read More</a> → 
+                <a href="{{ post.url }}" class="permalink" title="Permalink">Comment</a> → 
+            </small>
+        </p>
+        
+        
 	<div id="related">
- 	 <h5>Related posts</h5>
+ 	 <h5>Related articles:</h5>
   	     <ul class="posts">
     		{% for post in site.related_posts limit:3 %}
       		<li>
@@ -38,9 +39,7 @@ layout: layout
     		{% endfor %}
         </ul>
 	</div>
-	        
-	 <p>&nbsp;</p>
-        
+	   <p>&nbsp;</p>         
         {% include disqus_comments.html %}
     </article>
     

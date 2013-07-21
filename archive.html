@@ -9,11 +9,9 @@ description: Archive
 <div class="content">
 	{% for post in site.posts %}
 	<ul class="posts">
-      <li style="margin-bottom:1em;">
-       <small>
-           ★ {{ post.date | date: "%Y-%m-%d" }} →  
-           <a href="{{ post.url }}">{{ post.title }} </a> 
-           →  by {{ post.author }}
+      <li style="margin-bottom:0.5em;">
+           <small>
+           ★ by {{ post.author }} → dated: {{ post.date | date: "%Y-%m-%d" }} → <a href="{{ post.url }}">{{ post.title }}</a> →  
           </small>
       </li>        
 	</ul>
