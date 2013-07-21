@@ -1,7 +1,7 @@
 safe: true
 auto: true
 server: true
-baseurl: http://thechels.github.io
+baseurl: http://thechels.me
 future: false
 lsi: false
 paginate: 3
@@ -18,6 +18,6 @@ permalink: /:year/:month/:day/:title
 ## Variables
 title : TheChels.me
 description : Short form blogging and blogging directory
-url : http://thechels.github.io
+url : http://thechels.me
 tagline : Short form blogging and blogging directory
-production_url : http://thechels.github.io
+production_url : http://thechels.me
