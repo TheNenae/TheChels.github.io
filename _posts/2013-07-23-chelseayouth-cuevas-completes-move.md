@@ -3,7 +3,7 @@
 layout: post
 title: Cueva Completes Move
 link: http://thechels.net/2013/07/cuevas-completes-chelsea-move/
-date: 2013-07-22 00:15:00
+date: 2013-07-23 00:15:00
 categories: Chelseayouth
 author: Chelseayouth
 
