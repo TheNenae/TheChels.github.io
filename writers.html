@@ -13,4 +13,11 @@ description: Author list
      <li style="margin-bottom:1em;"><small>★ <a href="/ChelseaStatto">ChelseaStatto</a></small>     
       </li>     
 	</ul>
+    
+    
+    <ul>
+        {% for cat in site.categories %}
+            <li>{{ cat[0] }}</li>
+        {% endfor %}
+    </ul>
 </div>
