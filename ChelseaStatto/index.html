@@ -7,7 +7,7 @@ author: ChelseaStatto
 <ul class="posts">
 {% for p in site.posts do %}
   {% if p.author == page.author %}
-    <li><small>★ {{ post.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
+    <li><small>★ {{ p.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
   {% endif %}
 {% endfor %}
 </ul>
