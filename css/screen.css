@@ -242,11 +242,11 @@ ul.projects li {margin-bottom:2em;}
 	line-height: 1.5em;
 }
 #footer .grid {
-	width: 30%;
+	width: 50%;
 	float: left;
 }
 #footer .gridright {
-	width: 70%;
+	width: 50%;
 	float: left;
 	text-align: right;
 }
