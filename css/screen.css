@@ -34,6 +34,8 @@ a:hover {
  .pagination { display:block;}
 .previous {float:left;}
 .next {float:right;}
+
+.authorimg { border-radius:23px; float:right;}
 /******************************
 /* tables
 /***************************

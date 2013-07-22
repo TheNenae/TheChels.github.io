@@ -2,8 +2,13 @@
 layout: layout
 title: ChelseaStatto
 author: ChelseaStatto
+twitter: ChelseaStatto
+img: https://si0.twimg.com/profile_images/2198912122/chelsea_bigger.JPG
 ---
 <p>A list of articles written by {{page.author}}</p>
+
+<span class="authorimg r"><a href="http://twitter.com/{{page.twitter}}" title="{{page.twitter}}"><img src="{{page.img}}" alt="{{page.twitter}}" /></a></span>
+
 <ul class="posts">
 {% for p in site.posts do %}
   {% if p.author == page.author %}
