@@ -6,7 +6,7 @@ author: ChelseaStatto
 <p>A list of articles written by {{page.author}}</p>
 <ul class="posts">
 {% for p in site.posts do %}
-  {% if p.author == post.author %}
+  {% if p.author == page.author %}
     <li><small>★ {{ post.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
   {% endif %}
 {% endfor %}
