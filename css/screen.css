@@ -35,7 +35,7 @@ a:hover {
 .previous {float:left;}
 .next {float:right;}
 
-.authorimg { border-radius:23px; float:right;}
+.authorimg img { border-radius:23px; float:right; vertical-align:top;}
 /******************************
 /* tables
 /***************************
