@@ -17,11 +17,10 @@ layout: layout
     	{{ content }}
   	    <p>&nbsp;</p>
   
-	    <p> 
+	<p> 
             <small>
-                <i class="icon-star"></i> by <a href="/{{ page.author }}">{{ page.author }}</a> →
-                  dated: {{ page.date | date: "%Y-%m-%d" }} 
-                  <a href="{{ post.url }}" class="permalink" title="Permalink">#</a> 
+                 <a href="{{ post.url }}" class="permalink" title="Permalink"><i class="icon-star"></i></a> 
+                 by <a href="/{{ page.author }}">{{ page.author }}</a> → dated: {{ page.date | date: "%Y-%m-%d" }} 
                 <a href="{{ post.url }}" class="comment" title="comment">Comment</a> → 
             </small>
         </p>
