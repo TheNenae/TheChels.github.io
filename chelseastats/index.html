@@ -7,11 +7,15 @@ img: https://si0.twimg.com/profile_images/1533349463/stats_bigger.jpg
 
 ---
 
+<span class="authorimg r"><a href="http://twitter.com/{{page.twitter}}" title="{{page.twitter}}"><img src="{{page.img}}" alt="{{page.twitter}}" /></a></span>
+
+
 <p>A list of articles written by {{page.author}}</p>
+
 <ul class="posts">
 {% for p in site.posts do %}
-  {% if p.author == post.author %}
-    <li><small><i class="icon-star"></i> {{ post.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
+  {% if p.author == page.author %}
+    <li><small><i class="icon-star"></i> {{ p.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
   {% endif %}
 {% endfor %}
 </ul>
