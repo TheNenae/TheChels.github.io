@@ -7,7 +7,7 @@ layout: layout
   		<header>
 				
 				{% if page.link %}
-<h3>→ <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+<h3><i class="icon-long-arrow-right"></i> <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% else %}
 <h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
@@ -19,7 +19,7 @@ layout: layout
   
 	    <p> 
             <small>
-                ★ by <a href="/{{ page.author }}">{{ page.author }}</a> →
+                <i class="icon-star"></i> by <a href="/{{ page.author }}">{{ page.author }}</a> →
                   dated: {{ page.date | date: "%Y-%m-%d" }} 
                   <a href="{{ post.url }}" class="permalink" title="Permalink">#</a> → 
                 <a href="{{ post.url }}" class="comment" title="comment">Comment</a> → 
@@ -33,7 +33,7 @@ layout: layout
     		{% for post in site.related_posts limit:3 %}
       		<li>
                 <small> 
-                   ★ {{ post.date | date: "%Y-%m-%d" }} → <a href="{{ post.url }}">{{ post.title }}</a>
+                   <i class="icon-star"></i> {{ post.date | date: "%Y-%m-%d" }} → <a href="{{ post.url }}">{{ post.title }}</a>
                 </small>
             </li>
     		{% endfor %}
