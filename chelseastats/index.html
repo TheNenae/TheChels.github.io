@@ -15,7 +15,12 @@ img: https://si0.twimg.com/profile_images/1533349463/stats_bigger.jpg
 <ul class="posts">
 {% for p in site.posts do %}
   {% if p.author == page.author %}
-    <li><small><i class="icon-star"></i> {{ p.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
+    <li>
+        <small>
+            <a href="{{ p.url }}"><i class="icon-star"></i></a> → 
+            <a href="{{ p.url }}">{{ p.title }}</a> ({{ p.date | date: "%d %b %Y" }})
+        </small>
+    </li>
   {% endif %}
 {% endfor %}
 </ul>
