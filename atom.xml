@@ -19,7 +19,7 @@ layout: nil
    <title>{{ post.title | xml_escape }}</title>
    <link href="http://thechels.me{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://http://blog.thecellarroom.net{{ post.id }}</id>
+   <id>http://thechels.me{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}
        <p>...<a href="http://thechels.me{{ post.url }}">read more</a></p>
      </content>
