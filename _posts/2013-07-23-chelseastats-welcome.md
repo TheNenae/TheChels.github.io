@@ -7,7 +7,7 @@ author: chelseastats
 
 ---
 
-The Thechels.me site has soft launched today and aims to bring subscribers (<a href="/atom.xml">RSS</a>) and twitter followers 
+The Thechels.me site has soft launched today and aims to bring subscribers (<a href="/atom.xml">RSS</a>) and <a href="http://twitter.com/TheChelsMe"> @TheChelsMe twitter</a> followers 
 with the latest from a whole host of Chelsea FC fan blogs.
 
 The site is open source and <a href="/help">open for submissions</a>.
