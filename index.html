@@ -10,7 +10,7 @@ description: Short form blogging and links to Chelsea FC fan blogs
 <header>		
 {% if post.link %}
     <h3>
-    → 
+    <i class="icon-long-arrow-right"></i>
     <a href="{{ post.link }}" class="link-post">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
     </h3>
 {% else %}
@@ -19,7 +19,7 @@ description: Short form blogging and links to Chelsea FC fan blogs
     </h3>
 {% endif %}
 </header>
-<i class="icon-ok"></i>
+
 		{% if post.content contains '<!--more-->' %}
   		{{ post.content | split:'<!--more-->' | first }}
 		{% else %}
@@ -28,7 +28,7 @@ description: Short form blogging and links to Chelsea FC fan blogs
 
         <p> 
             <small>
-                ★ by <a href="/{{ post.author }}">{{ post.author }}</a> →
+                <i class="icon-star"></i> by <a href="/{{ post.author }}">{{ post.author }}</a> →
                   dated: {{ post.date | date: "%Y-%m-%d" }} 
                 <a href="{{ post.url }}" class="permalink" title="Permalink">#</a> → 
                 <a href="{{ post.url }}" class="comment" title="comment">Comment</a> → 
@@ -39,12 +39,12 @@ description: Short form blogging and links to Chelsea FC fan blogs
 {% if forloop.first %}
 
     <aside class="ad">
-        <small>★ ★ ★</small>
+        <small><i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star"></i></small>
         <!-- ad stuff -->
     	<p>TheChels.me is<br/>sponsored by <a href="http://www.thechels.co.uk/Amazon">Amazon</a></p>
         <p class="advertlink c"><a href="/help/#advert">[Advertise]</a></p></p>
         <!-- ad stuff -->
-        <small>★ ★ ★</small>
+        <small><i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star"></i></small>
     </aside>
 
 {% endif %}	
