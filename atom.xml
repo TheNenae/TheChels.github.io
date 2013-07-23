@@ -5,24 +5,23 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>TheChels.me : Short form blogging</title>
- <link href="http://thechels.github.io/atom.xml" rel="self"/>
- <link href="http://thechels.github.io"/>
+ <link href="http://thechels.me/atom.xml" rel="self"/>
+ <link href="http://thechels.me"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://thechels.github.io</id>
+ <id>http://thechels.me</id>
  <author>
-   <name>TheChels.me</name>
+   <name>thechels.me</name>
    <email>editor@thechels.co.uk</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>
-   <link href="http://blog.thecellarroom.net{{ post.url }}"/>
+   <link href="http://thechels.me{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://http://blog.thecellarroom.net{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}
-       <p>
-     <a target="_blank" href="http://www.amazon.co.uk/?_encoding=UTF8&camp=1634&creative=19450&linkCode=ur2&tag=chelseastats-21">Support TheChels by shopping at Amazon</a></p>
+       <p>...<a href="http://thechels.me{{ post.url }}">read more</a></p>
      </content>
  </entry>
  {% endfor %}
