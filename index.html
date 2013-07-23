@@ -9,8 +9,8 @@ description: Short form blogging and links to Chelsea FC fan blogs
 
 <header>		
 {% if post.link %}
+    <i class="icon-long-arrow-right"></i> 
     <h3>
-    <i class="icon-long-arrow-right"></i>
     <a href="{{ post.link }}" class="link-post">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
     </h3>
 {% else %}
