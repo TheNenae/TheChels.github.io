@@ -3,10 +3,9 @@
 layout: post
 title: Cueva Completes Move
 link: http://thechels.net/2013/07/cuevas-completes-chelsea-move/
-date: 2013-07-23 00:15:00
+date: 2013-07-23 07:15:00
 categories: Chelseayouth
 author: Chelseayouth
-
 ---
 
 Cristian Cuevas, the Chilean Under-20 international winger, has today completed his move from O’Higgins to Chelsea.
