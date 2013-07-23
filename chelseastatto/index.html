@@ -14,7 +14,7 @@ img: https://si0.twimg.com/profile_images/2198912122/chelsea_bigger.JPG
 <ul class="posts">
 {% for p in site.posts do %}
   {% if p.author == page.author %}
-    <li><small>★ {{ p.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
+    <li><small><i class="icon-star"></i> {{ p.date | date: "%d %b %Y" }} → <a href="{{ p.url }}">{{ p.title }}</a></small></li>
   {% endif %}
 {% endfor %}
 </ul>
