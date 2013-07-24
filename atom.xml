@@ -20,8 +20,9 @@ layout: nil
    <link href="http://thechels.me{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://thechels.me{{ post.id }}</id>
+   <author>@{{ post.author }}</author>
    <content type="html">{{ post.content | xml_escape }}
-       <p>...<a href="http://thechels.me{{ post.url }}">read more</a></p>
+       <p><a href="http://thechels.me{{ post.url }}"><i class="icon-star"></i></a></p>
      </content>
  </entry>
  {% endfor %}
