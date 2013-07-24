@@ -10,7 +10,7 @@ description: Author list
     <p>A list of authors published on the site</p>
 	<ul class="posts">
         {% for cat in site.categories %}
-            <li><small>★ <a href="/{{ cat[0] }}">{{ cat[0] }}</a></small></li>
+            <li><small><a href="/{{ cat[0] }}"><i class="icon-star"></i></a> <a href="/{{ cat[0] }}">{{ cat[0] }}</a></small></li>
         {% endfor %}
     </ul>
 </div>
