@@ -7,7 +7,7 @@ layout: layout
   		<header>
 				
 				{% if page.link %}
-<h3><i class="icon-long-arrow-right"></i> <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+<h3><i class="icon-bookmark"></i> <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% else %}
 <h3><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
 				{% endif %}
