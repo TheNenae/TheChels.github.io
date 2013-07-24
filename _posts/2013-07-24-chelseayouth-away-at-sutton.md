@@ -1,8 +1,10 @@
 ---
+layout: post
+date: 2013-07-24 08:00:00 
 title: Under-21s: Sutton United 0-4 Chelsea
 link: http://thechels.net/2013/07/under-21s-sutton-united-0-4-chelsea/
 author: chelseayouth
-
+categories: chelseayouth 
 ---
 
 Chelsea’s Under-21s continued their unbeaten pre-season to date with a comfortable win over Sutton United on 
