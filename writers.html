@@ -7,7 +7,8 @@ description: Author list
 ---
 
 <div class="content">
-    <p>A list of authors published on the site</p>
+    <h3><i class="icon-copy"></i> Writers</h3>
+    <p>A list of writers published on the site</p>
 	<ul class="posts">
         {% for cat in site.categories %}
             <li><small><a href="/{{ cat[0] }}"><i class="icon-star"></i></a> <a href="/{{ cat[0] }}">{{ cat[0] }}</a></small></li>
