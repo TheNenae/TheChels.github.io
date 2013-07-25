@@ -108,7 +108,7 @@ ul.projects li{margin-bottom:2em}
 .posts a{text-decoration:none}
 .posts a:hover{text-decoration:underline}
 .posts .date{color:gray}
-pre {border:1px solid #aaa; background-color:##ffd; border-radius:2px; display:block;}
+pre {border:1px solid #aaa; background-color:##ffb; border-radius:4px; display:block;}
 #footer{font-size:12px;margin:20px 0 0 0;padding:12px 0 12px 0;border-top:3px solid #eee;line-height:1.5em}
 #footer .grid{width:50%;float:left}
 #footer .gridright{width:50%;float:left;text-align:right}
