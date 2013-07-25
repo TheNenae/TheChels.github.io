@@ -16,12 +16,12 @@ bio: Blogger, Tweeter, Chelsea fan. Found at @MartinLi24, @CFCChronicle, http://
     </a>
 </span>
 
-<p>A list of articles written by {{page.author}}</p>
+<h6>Bio</h6>
 <p>{{page.bio}}</p>
 
 <a href="{{page.url}}"><i class="icon-star"></i></a> <a href="{{page.url}}">website</a>
 
-
+<h6>A list of articles written by {{page.author}}</h6>
 <ul class="posts">
 {% for p in site.posts do %}
   {% if p.author == page.author %}
