@@ -11,11 +11,12 @@ description: Archive
     <h3><i class="icon-archive"></i> Archive</h3>
 	{% for post in site.posts %}
 	<ul class="posts">
-      <li style="margin-bottom:0.5em;">
+      <li>
            <small>
            <a href="{{ post.url }}"><i class="icon-star"></i></a> → 
-           <a href="{{ post.url }}">{{ post.title }}</a> 
-           by <a href="/{{ post.author }}">{{ post.author }}</a> dated: {{ post.date | date: "%Y-%m-%d" }} 
+           <a href="{{ post.url }}">{{ post.title }}</a>  
+           <br/>  by <a href="/{{ post.author }}">{{ post.author }}</a> dated: {{ post.date | date: "%Y-%m-%d" }}
+           <br/>
           </small>
       </li>        
 	</ul>
