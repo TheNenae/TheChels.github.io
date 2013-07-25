@@ -10,16 +10,23 @@ bio: Blogger, Tweeter, Chelsea fan. Found at @MartinLi24, @CFCChronicle, http://
 
 <h3><i class="icon-male"></i> {{page.author}}</h3>
 
+{% if page.image %}
 <span class="authorimg r">
     <a href="http://twitter.com/{{page.twitter}}" title="{{page.twitter}}">
         <img src="{{page.image}}" width="75px" alt="{{page.twitter}}" />
     </a>
 </span>
+{% endif %}
 
+{% if page.bio %}
 <h6>Bio</h6>
 <p>{{page.bio}}</p>
+{% endif %}
 
+{% if page.url %}
 <a href="{{page.url}}"><i class="icon-star"></i></a> <a href="{{page.url}}">website</a>
+{% endif %}
+
 
 <h6>A list of articles written by {{page.author}}</h6>
 <ul class="posts">
