@@ -1,4 +1,5 @@
 ---
+layout: post
 title: What to expect from Mourinho’s first season back
 link: http://thechelseachronicle.wordpress.com/2013/06/05/what-to-expect-from-mourinhos-first-season-back/
 date: 2013-07-25 23:10:00
