@@ -2,7 +2,7 @@
 layout: post
 title: Chelsea Ladies Transfer Roundup
 link: http://blogs.chelseafc.com/?p=3202
-date: 2013-07-27 16:00:00
+date: 2013-07-26 16:00:00
 categories: chelseastats
 author: chelseastats
 ---
