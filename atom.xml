@@ -22,9 +22,7 @@ layout: nil
    <id>http://thechels.me{{ post.id }}</id>
    <author>@{{ post.author }}</author>
    <content type="html">{{ post.content | xml_escape }}
-       <p><a href="http://thechels.me{{ post.url }}">
-        <i class="icon-star">&nbsp;</i>
-       </a></p>
+       <p><a href="http://thechels.me{{ post.url }}">★</a></p>
      </content>
  </entry>
  {% endfor %}
