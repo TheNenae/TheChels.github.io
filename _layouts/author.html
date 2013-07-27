@@ -2,6 +2,12 @@
 layout: author
 ---
 
+    {% include header.html %}
+	<div id="wrapper">	
+	    {% include nav.html %}
+		<section>
+
+
 {% if page.sex == 'male'' %}
 <h3><i class="icon-male"></i> {{page.author}}</h3>
 {% elsif page.sex == 'female'' %}
@@ -39,3 +45,7 @@ layout: author
   {% endif %}
 {% endfor %}
 </ul>
+		</section>
+    {% include footer.html %}	
+	</div>	
+    {% include analytics.html %}
