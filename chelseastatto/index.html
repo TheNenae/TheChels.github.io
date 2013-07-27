@@ -1,47 +1,13 @@
 ---
-layout: layout
+layout: author
 title: ChelseaStatto
 author: chelseastatto
 twitter: chelseastatto
 img: https://si0.twimg.com/profile_images/2198912122/chelsea_bigger.JPG
-bio: Was introduced to football in 2006 with the commencement of the FIFA World Cup in Germany & his earliest memory of watching a Chelsea game is when he saw the boys in blue take on Liverpool in the FA Community Shield at Millennium stadium.
-
-He has been a staunch Chelsea supporter ever since. John Terry & Frank Lampard are his favourite players & Jose Mourinho and Carlo Ancelotti his favourite managers, with that historic win in Munich being his favourite Chelsea game.
-
-You can email ChelseaStatto@thechels.co.uk
-Or  follow him on Twitter: @ChelseaStatto.
+url: 
+sex: male
+bio: Was introduced to football in 2006 with the commencement of the FIFA World Cup in Germany & his earliest memory of watching a Chelsea game is when he saw the boys in blue take on Liverpool in the FA Community Shield at Millennium stadium.<br/>
+He has been a staunch Chelsea supporter ever since. John Terry & Frank Lampard are his favourite players & Jose Mourinho and Carlo Ancelotti his favourite managers, with that historic win in Munich being his favourite Chelsea game.<br/>
+You can email ChelseaStatto@thechels.co.uk<br/>
+Or  follow him on Twitter: @ChelseaStatto.<br/>
 ---
-
-<h3><i class="icon-male"></i> {{page.author}}</h3>
-
-{% if page.image %}
-<span class="authorimg r">
-    <a href="http://twitter.com/{{page.twitter}}" title="{{page.twitter}}">
-        <img src="{{page.image}}" width="75px" alt="{{page.twitter}}" />
-    </a>
-</span>
-{% endif %}
-
-{% if page.bio %}
-<h6>Bio</h6>
-<p>{{page.bio}}</p>
-{% endif %}
-
-{% if page.url %}
-<a href="{{page.link}}"><i class="icon-star"></i></a> <a href="{{page.link}}">website</a>
-{% endif %}
-
-
-<h6>A list of articles written by {{page.author}}</h6>
-<ul class="posts">
-{% for p in site.posts do %}
-  {% if p.author == page.author %}
-    <li>
-        <small>
-            <a href="{{ p.url }}"><i class="icon-star"></i></a> → 
-            <a href="{{ p.url }}">{{ p.title }}</a> ({{ p.date | date: "%d %b %Y" }})
-        </small>
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
