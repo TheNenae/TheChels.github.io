@@ -1,43 +1,17 @@
 ---
-layout: layout
+layout: author
 author: cfcchronicle
 title: Martin Li
 link: http://thechelseachronicle.wordpress.com
 twitter: cfcchronicle
 image: https://si0.twimg.com/profile_images/2366940651/13ahk1167kki11fk0oa5.png
-bio: Blogger, Tweeter, Chelsea fan. Found at @MartinLi24, @CFCChronicle, http://thechelseachronicle.wordpress.com. Started writing in 2011 and have thus far covered the 2011/2012 and 2012/2013 season, both with enormous turbulence but European success. Also still in school, studying for my A-Levels. First memory of a Chelsea match dates back to the excruciating Chelsea v. Monaco 2004 Champions League semi-final.
+
 ---
 
-<h3><i class="icon-male"></i> {{page.author}}</h3>
+Blogger, Tweeter, Chelsea fan. Found at @MartinLi24, @CFCChronicle, http://thechelseachronicle.wordpress.com. 
 
-{% if page.image %}
-<span class="authorimg r">
-    <a href="http://twitter.com/{{page.twitter}}" title="{{page.twitter}}">
-        <img src="{{page.image}}" width="75px" alt="{{page.twitter}}" />
-    </a>
-</span>
-{% endif %}
+Started writing in 2011 and have thus far covered the 2011/2012 and 2012/2013 season, both with enormous turbulence but European success. 
 
-{% if page.bio %}
-<h6>Bio</h6>
-<p>{{page.bio}}</p>
-{% endif %}
+Also still in school, studying for my A-Levels. 
 
-{% if page.url %}
-<a href="{{page.link}}"><i class="icon-star"></i></a> <a href="{{page.link}}">website</a>
-{% endif %}
-
-
-<h6>A list of articles written by {{page.author}}</h6>
-<ul class="posts">
-{% for p in site.posts do %}
-  {% if p.author == page.author %}
-    <li>
-        <small>
-            <a href="{{ p.url }}"><i class="icon-star"></i></a> → 
-            <a href="{{ p.url }}">{{ p.title }}</a> ({{ p.date | date: "%d %b %Y" }})
-        </small>
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
+First memory of a Chelsea match dates back to the excruciating Chelsea v. Monaco 2004 Champions League semi final
