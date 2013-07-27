@@ -17,12 +17,11 @@ layout: author
 </span>
 {% endif %}
 
-{% if page.bio %}
 <h6>Bio</h6>
-<p>{{page.bio}}</p>
-{% endif %}
+<p>{{ content }}</p>
 
-{% if page.url %}
+
+{% if page.curl %}
 <a href="{{page.link}}"><i class="icon-star"></i></a> <a href="{{page.link}}">website</a>
 {% endif %}
 
