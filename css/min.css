@@ -108,8 +108,9 @@ pre {border:1px solid #aaa; background-color:#FFFFCC; border-radius:4px; display
 p{text-align:justify;}
 ul.social {list-style-type:none; display:block; padding-left:0px;}
 ul.social li {display:inline; padding-right:2em; font-size:2em;}
-.pagination {display:block;}
+.pagination {display:block; padding-left:0px; border:1px solid grey; border-radius:4px;}
 .previous {float:left;}
+.page {float:center;}
 .next {float:right;}
 ul.pages li {list-style-type:none; display:inline-block; padding-right:1em;}
 @media only screen and (min-device-width:768px) and (max-device-width:1024px){#wrapper{width:95%}}
