@@ -47,6 +47,7 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
+
 *{text-rendering:optimizeLegibility}
 body{color:#222;font-family:Helvetica,tahoma,verdana Arial,sans-serif;font-size:14px}
 a{text-decoration:underline;color:#444}
@@ -71,15 +72,6 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',serif}
 .os4{font-family:'Open Sans',sans-serif;font-weight:400}
 .os7{font-family:'Open Sans',sans-serif;font-weight:700}
 aside.ad{text-align:center;margin-left:auto;margin-right:auto;width:90%}
-@media only screen and (min-device-width:768px) and (max-device-width:1024px){#wrapper{width:92%}
-}
-@media only screen and (min-device-width:481px) and (max-device-width:767px){#wrapper{width:95%}
-}
-@media only screen and (max-device-width:480px){#wrapper{width:95%}
-header img{width:95%}
-}
-@media only screen and (max-device-width:720px){#wrapper{width:95%}
-}
 #masterhead{padding:20px 0;margin:0 0 10px 0}
 #masterhead nav{margin:0;text-align:center}
 #header{text-align:center;font-size:22px;width:100%;margin:0 0 5px 0;display:block;padding-bottom:.5em;border-bottom:1px solid #888}
@@ -114,3 +106,8 @@ pre {border:1px solid #aaa; background-color:#FFFFCC; border-radius:4px; display
 #footer .gridright{width:50%;float:left;text-align:right}
 #footer a{text-decoration:none}
 #footer a:hover{text-decoration:underline}
+p{text-align:justify;}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){#wrapper{width:95%}}
+@media only screen and (min-device-width:481px) and (max-device-width:767px){#wrapper{width:95%}}
+@media only screen and (max-device-width:480px){#wrapper{width:95%} header img{width:95%}}
+@media only screen and (max-device-width:720px){#wrapper{width:95%}}

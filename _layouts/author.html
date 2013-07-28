@@ -8,9 +8,9 @@ layout: author
 		<section>
 
 
-{% if page.sex == 'male'' %}
+{% if page.sex == 'male' %}
 <h3><i class="icon-male"></i> {{page.author}}</h3>
-{% elsif page.sex == 'female'' %}
+{% elsif page.sex == 'female' %}
 <h3><i class="icon-female"></i> {{page.author}}</h3>
 {% endif %}
 
@@ -26,11 +26,16 @@ layout: author
 <h6>Bio</h6>
 {{ content }}
 
-
-{% if page.curl %}
-<a href="{{page.link}}"><i class="icon-star"></i></a> <a href="{{page.link}}">website</a>
-{% endif %}
-
+<ul class="social">
+{% if page.curl %}    <li><a href="{{page.link}}"><i class="icon-home"></i></a></li>{% endif %}
+{% if page.twitter %} <li><a href="{{page.twitter}}"><i class="icon-twitter"></i></a></li>{% endif %}
+{% if page.google %}  <li><a href="{{page.google}}"><i class="icon-google-plus"></i></a></li>{% endif %}
+{% if page.facebook %}<li><a href="{{page.facebook}}"><i class="icon-facebook"></i></a></li>{% endif %}
+{% if page.youtube %} <li><a href="{{page.youtube}}"><i class="icon-youtube"></i></a></li>{% endif %}
+{% if page.pinterest %} <li><a href="{{page.pinterest}}"><i class="icon-pinterest"></i></a></li>{% endif %}
+{% if page.instagram %} <li><a href="{{page.instagram}}"><i class="icon-instagram"></i></a></li>{% endif %}    
+{% if page.github %}  <li><a href="{{page.github}}"><i class="icon-github"></i></a></li>{% endif %}       
+</ul>
 
 <h6>A list of articles written by {{page.author}}</h6>
 <ul class="posts">
