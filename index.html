@@ -44,13 +44,13 @@ description: Short form blogging and links to Chelsea FC fan blogs
   {% if paginator.previous_page %}
     <li class="previous">
       {% if paginator.previous_page == 1 %}
-        <a href="/"><i class="icon-arrow-long-left"></i></a>
+        <a href="/"><i class="icon-long-arrow-left"></i></a>
       {% else %}
-        <a href="{{ paginator.previous_page_path }}"><i class="icon-arrow-long-left"></i></a>
+        <a href="{{ paginator.previous_page_path }}"><i class="icon-long-arrow-left"></i></a>
       {% endif %}
     </li>
   {% else %}
-    <li class="previous disabled"><span><i class="icon-arrow-long-left"></i></span></li>
+    <li class="previous"><span><i class="icon-long-arrow-left"></i></span></li>
   {% endif %}
 
     <li class="page">
@@ -72,9 +72,9 @@ description: Short form blogging and links to Chelsea FC fan blogs
     {% endfor %}
  
   {% if paginator.next_page %}
-    <li class="next"><a href="{{ paginator.next_page_path }}"><i class="icon-arrow-long-right"></i></a></li>
+    <li class="next"><a href="{{ paginator.next_page_path }}"><i class="icon-long-arrow-right"></i></a></li>
   {% else %}
-    <li class="next disabled"><span><i class="icon-arrow-long-right"></i></span></li>
+    <li class="next"><span><i class="icon-long-arrow-right"></i></span></li>
   {% endif %}
  </ul>    
 </div>
