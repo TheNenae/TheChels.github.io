@@ -58,9 +58,6 @@ a:hover{text-decoration:none}
 .j{text-align:justify}
 .r{text-align:right}
 .c{text-align:center}
-.pagination{display:block}
-.previous{float:left}
-.next{float:right}
 h1{font-size:22px}
 h2{font-size:20px}
 h3{font-size:18px}
@@ -108,11 +105,10 @@ pre {border:1px solid #aaa; background-color:#FFFFCC; border-radius:4px; display
 p{text-align:justify;}
 ul.social {list-style-type:none; display:block; padding-left:0px;}
 ul.social li {display:inline; padding-right:2em; font-size:2em;}
-.pagination: {padding:5px;}
+.pagination: {padding:5px; display:block;}
 ul.pages {display:block; padding-left:0px; border:1px solid grey; border-radius:4px;}
 ul.pages li {list-style-type:none; display:inline-block; padding-right:1em;}
 .previous {float:left;}
-ul.pages li.page {float:center;}
 .next {float:right;}
 
 @media only screen and (min-device-width:768px) and (max-device-width:1024px){#wrapper{width:95%}}
