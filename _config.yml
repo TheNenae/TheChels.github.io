@@ -6,7 +6,7 @@ auto: true
 server: true
 future: false
 lsi: false
-paginate: 3
+paginate: 5
 markdown: rdiscount
 timezone: Europe/London
 source:      .
