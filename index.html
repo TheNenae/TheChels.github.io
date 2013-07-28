@@ -1,10 +1,10 @@
 ---
 layout: layout
 title: Chelsea FC blogging
-description: Short form blogging and links to Chelsea FC fan blogs
+description: Chelsea FC blogging
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 	<article class="post">
 <header>		
 {% if post.link %}
@@ -17,13 +17,11 @@ description: Short form blogging and links to Chelsea FC fan blogs
     </h3>
 {% endif %}
 </header>
-
 		{% if post.content contains '<!--more-->' %}
   		{{ post.content | split:'<!--more-->' | first }}
-		{% else %}
-  		{{ post.content }}
-		{% endif %}
-
+		{% else %} 
+  		{{ post.content }}  
+        {% endif %}
         <p> 
             <small>
                  <a href="{{ post.url }}" class="permalink" title="Permalink"><i class="icon-star"></i></a>
@@ -31,10 +29,8 @@ description: Short form blogging and links to Chelsea FC fan blogs
                   dated: {{ post.date | date: "%Y-%m-%d" }} → 
                 <a href="{{ post.url }}" class="comment" title="comment">Comment</a> → 
             </small>
-        </p>
-        
+        </p>  
 </article>
-
 {% endfor %}
 
 <aside>
@@ -52,24 +48,6 @@ description: Short form blogging and links to Chelsea FC fan blogs
   {% else %}
     <li class="previous"><span><i class="icon-long-arrow-left"></i></span></li>
   {% endif %}
-
-    <li class="page">
-      {% if paginator.page == 1 %}
-        <span class="current-page">1</span>
-      {% else %}
-        <a href="/">1</a>
-      {% endif %}
-    </li>
-
-    {% for count in (2..paginator.total_pages) %}
-      <li class="page">
-        {% if count == paginator.page %}
-          <span class="current-page">{{ count }}</span>
-        {% else %}
-          <a href="/page{{ count }}">{{ count }}</a>
-        {% endif %}
-      </li>
-    {% endfor %}
  
   {% if paginator.next_page %}
     <li class="next"><a href="{{ paginator.next_page_path }}"><i class="icon-long-arrow-right"></i></a></li>
