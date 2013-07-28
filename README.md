@@ -97,7 +97,6 @@ categories: yourtwittername
 
 <pre>
 <code>---
----
 layout: author
 title: ChelseaStats
 author: chelseastats
@@ -110,10 +109,9 @@ github: http://github.com/TheChels
 pinterest: http://pinterest.com/chelseastats/chelsea/
 youtube: http://www.youtube.com/user/ChelseaStats/
 ---
-
 <p>Here you can right a brief bio, mention your websites, favourite games/players etc</p></code>
 </pre>
-    
+
 <h4 id="other">Other Information</h4>
 
 <p>The site is open source, built using Jekyll & ruby and is hosted on 
