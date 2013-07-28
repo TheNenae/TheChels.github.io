@@ -96,7 +96,8 @@ categories: yourtwittername
 <p>Author pages need some basic info about you, as much or as little as you please, the minimum is your name: again, send this and updates to this in a text file.</p>
 
 <pre>
-<code>---
+<code>
+---
 layout: author
 title: ChelseaStats
 author: chelseastats
@@ -109,7 +110,8 @@ github: http://github.com/TheChels
 pinterest: http://pinterest.com/chelseastats/chelsea/
 youtube: http://www.youtube.com/user/ChelseaStats/
 ---
-<p>Here you can right a brief bio, mention your websites, favourite games/players etc</p></code>
+<p>Here you can right a brief bio, mention your websites, favourite games/players etc</p>
+</code>
 </pre>
 
 <h4 id="other">Other Information</h4>
