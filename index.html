@@ -46,7 +46,7 @@ description: Short form blogging and links to Chelsea FC fan blogs
       {% if paginator.previous_page == 1 %}
         <a href="/"><i class="icon-long-arrow-left"></i></a>
       {% else %}
-        <a href="{{ paginator.previous_page_path }}"><i class="icon-long-arrow-left"></i></a>
+        <a href="/{{ paginator.previous_page_path }}"><i class="icon-long-arrow-left"></i></a>
       {% endif %}
     </li>
   {% else %}
