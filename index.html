@@ -39,21 +39,23 @@ description: Short form blogging and links to Chelsea FC fan blogs
 
 <aside>
 <div id="post-pagination" class="pagination">
+
+<ul class="pages">    
   {% if paginator.previous_page %}
-    <p class="previous">
+    <li class="previous">
       {% if paginator.previous_page == 1 %}
         <a href="/">Previous</a>
       {% else %}
         <a href="{{ paginator.previous_page_path }}">Previous</a>
       {% endif %}
-    </p>
+    </li>
   {% else %}
-    <p class="previous disabled">
+    <li class="previous disabled">
       <span>Previous</span>
-    </p>
+    </li>
   {% endif %}
 
-  <ul class="pages">
+
     <li class="page">
       {% if paginator.page == 1 %}
         <span class="current-page">1</span>
@@ -71,14 +73,12 @@ description: Short form blogging and links to Chelsea FC fan blogs
         {% endif %}
       </li>
     {% endfor %}
-  </ul>
-
+ 
   {% if paginator.next_page %}
-    <p class="next"><a href="{{ paginator.next_page_path }}">Next</a></p>
+    <li class="next"><a href="{{ paginator.next_page_path }}">Next</a></li>
   {% else %}
-    <p class="next disabled"><span>Next</span></p>
+    <li class="next disabled"><span>Next</span></li>
   {% endif %}
-
+ </ul>    
 </div>
-
 </aside>
