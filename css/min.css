@@ -111,5 +111,5 @@ p{text-align:justify;}
 @media only screen and (min-device-width:481px) and (max-device-width:767px){#wrapper{width:95%}}
 @media only screen and (max-device-width:480px){#wrapper{width:95%} header img{width:95%}}
 @media only screen and (max-device-width:720px){#wrapper{width:95%}}
-ul.social {list-style-type:none; display:block;}
+ul.social {list-style-type:none; display:block; padding-left:0px;}
 ul.social li {display:inline; padding-right:5px; font-size:2em;}
