@@ -39,7 +39,7 @@ layout: author
 {% if page.dropbox %}  <li><a href="{{page.dropbox}}"><i class="icon-dropbox"></i></a></li>{% endif %}    
 </ul>
 
-<h6>A list of articles written by {{page.author}}</h6>
+<h6>Articles by {{page.author}}</h6>
 <ul class="posts">
 {% for p in site.posts do %}
   {% if p.author == page.author %}
