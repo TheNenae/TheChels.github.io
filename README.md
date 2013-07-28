@@ -25,7 +25,7 @@
 <p>As a writer/blogger this offers a great opportunity to get your site some hits or your content published and read by likeminded fans.</p>
 <p>For the reader, it can be seen as a curation of selected content relevant to you, in a quick and simple website that will work on all devices/browsers.</p>
     
-  
+	
 <h4 id="art">Article Types</h4>
 
 <p>There are two types of content suitable for this site. Linked articles or blog articles.</p>
@@ -92,19 +92,26 @@ categories: yourtwittername
 </pre>
 
 		
-<h4 id="auhthor">Author Pages</h4>
+<h4 id="author">Author Pages</h4>
 <p>Author pages need some basic info about you, as much or as little as you please, the minimum is your name: again, send this and updates to this in a text file.</p>
 
 <pre>
 <code>---
-layout: layout
-title: Your Name
-url: http://thechels.co.uk
-twitter: yourtwittername
-googleplus: your author id
-image: http://twitimg.com/yourtwitterimageurl
-bio: some text about how long you have been a fan or where you watch games or how long you have been writing... anything.
----</code>
+---
+layout: author
+title: ChelseaStats
+author: chelseastats
+twitter: chelseastats
+sex: male
+curl: http://www.thechels.co.uk
+google: http://gplus.to/ChelseaStats
+facebook: http://facebook.com/ChelseaStats
+github: http://github.com/TheChels
+pinterest: http://pinterest.com/chelseastats/chelsea/
+youtube: http://www.youtube.com/user/ChelseaStats/
+---
+
+<p>Here you can right a brief bio, mention your websites, favourite games/players etc</p></code>
 </pre>
     
 <h4 id="other">Other Information</h4>
