@@ -2,7 +2,7 @@
 layout: post
 title: This Week in Gossip - All We Need Is Roo
 link: http://www.ohdenniswise.com/2013/07/this-week-in-gossip-all-we-need-is-roo.html
-date: 2013-07-31 16:00:00
+date: 2013-07-31 18:00:00
 author: cfc_jb
 categories: cfc_jb
 
