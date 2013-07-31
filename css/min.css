@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
 audio:not([controls]){display:none;height:0}
@@ -19,7 +26,7 @@ blockquote{margin:1em 40px}
 dfn{font-style:italic}
 mark{background:#ff0;color:#000}
 p,pre{margin:1em 0}
-pre,code,kbd,samp{font-family:monospace,serif;_font-family: monospace,'courier new',monospace; font-size:1em}
+pre,code,kbd,samp{font-family:monospace,serif;_font-family: monospace,'courier new'; font-size:1em}
 pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
 q{quotes:none}
 q:before,q:after{content:'';content:none}
@@ -47,9 +54,8 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
-
 *{text-rendering:optimizeLegibility}
-body{color:#222;font-family:Helvetica,tahoma,verdana Arial,sans-serif;font-size:14px}
+body{color:#222;font-family:Helvetica,sans-serif;font-size:14px}
 a{text-decoration:underline;color:#444}
 a:hover{text-decoration:none}
 #wrapper{width:98%;max-width:600px;margin:0 auto;padding:0;background:#fff}
@@ -64,7 +70,7 @@ h3{font-size:18px}
 h4{font-size:16px}
 h5{font-size:14px}
 h6{font-size:12px;text-decoration:underline}
-h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',serif}
+h1,h2,h3,h4,h5,h6{font-family:'Helvetica Neue','Open Sans',sans-serif;}
 .os4{font-family:'Open Sans',sans-serif;font-weight:400}
 .os7{font-family:'Open Sans',sans-serif;font-weight:700}
 aside.ad{text-align:center;margin-left:auto;margin-right:auto;width:90%}
