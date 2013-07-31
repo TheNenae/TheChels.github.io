@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title: This Week in Gossip: All We Need Is Roo
 link: http://www.ohdenniswise.com/2013/07/this-week-in-gossip-all-we-need-is-roo.html
