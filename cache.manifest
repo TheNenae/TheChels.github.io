@@ -1,6 +1,6 @@
 CACHE MANIFEST
 # This is a comment.
-# Cache manifest version 2013.07.31.LUKAKU>TORRES
+# Cache manifest version 2013.07.31.LUKAKU.v1.2.1
 # Cache date 2012.07.31
 # If you change the version number in this comment,
 # the cache manifest is no longer byte-for-byte identical thats how we clear it.
@@ -28,8 +28,12 @@ CACHE:
 
 # Style
 /css/min.css
-/css/fa.min.css
-
+http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css
+http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.eot?v=3.2.1
+http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.eot?#iefix&v=3.2.1
+http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.woff?v=3.2.1
+http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.ttf?v=3.2.1
+http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1
 
 NETWORK:
 # All URLs that start with the following lines are whitelisted.
