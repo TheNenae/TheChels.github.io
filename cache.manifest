@@ -1,0 +1,35 @@
+CACHE MANIFEST
+# This is a comment.
+# Cache manifest version 2013.07.31.LUKAKU
+# Cache date 2012.07.31
+# If you change the version number in this comment,
+# the cache manifest is no longer byte-for-byte identical thats how we clear it.
+
+CACHE:
+# items to cache.
+
+# images
+/img/TheChels.me-header.jpg
+/img/apple-touch-icon-ipad.png
+/img/apple-touch-icon-ipad3.png
+/img/apple-touch-icon-iphone.png
+/img/apple-touch-icon-iphone4.png
+/img/banner.jpg
+/img/default.png
+/img/default2x.png
+/img/default4x.png
+/img/favicon-msapplication-tileimage.png
+/img/favicon.ico
+/img/image.png
+/img/thechels.png
+/img/touch-icon-ipad.png
+/img/touch-icon-iphone.png
+/img/touch-icon-iphone4.png
+
+# Style
+/css/min.css
+
+
+NETWORK:
+# All URLs that start with the following lines are whitelisted.
+*
