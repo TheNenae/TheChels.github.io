@@ -107,7 +107,7 @@ ul.social {list-style-type:none; display:block; padding-left:0px;}
 ul.social li {display:inline; padding-right:2em; font-size:2em;}
 aside {height:2em; line-height:2em;}
 .pagination: {padding:5px; display:block;}
-ul.pages {display:block; padding-left:0px; border:1px solid grey; border-radius:4px;}
+ul.pages {display:block; padding-left:2px; padding-right:2px; margin:0px; border:3px solid #EEE; border-radius:4px;}
 ul.pages li {list-style-type:none; display:inline-block; padding-right:1em;}
 .previous {float:left;}
 .next {float:right;}
