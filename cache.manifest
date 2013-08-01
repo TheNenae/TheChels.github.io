@@ -38,8 +38,7 @@ http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.svg#f
 
 NETWORK:
 # All URLs that start with the following lines are whitelisted.
-http://thechels.me
-*.html
+*
 
 FALLBACK:
 # offline revert to cached page.
