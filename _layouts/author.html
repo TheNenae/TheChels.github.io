@@ -12,6 +12,10 @@ layout: author
 <h3><i class="icon-male"></i> {{page.author}}</h3>
 {% elsif page.sex == 'female' %}
 <h3><i class="icon-female"></i> {{page.author}}</h3>
+{% elsif page.sex == 'group' %}       
+<h3><i class="icon-group"></i>  {{page.author}}</h3>       
+{% elsif  %}              
+<h3><i class="icon-anchor"></i>  {{page.author}}</h3>         
 {% endif %}
 
 <h6>Bio</h6>
