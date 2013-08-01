@@ -4,6 +4,8 @@ author: chelseastats
 title: Deadline day for WSL
 description: Deadline day for WSL
 date: 2013-08-01 10:00:00
+categories: chelseastats
+
 ---
 
 It's transfer deadline day in the Women's super league. 
