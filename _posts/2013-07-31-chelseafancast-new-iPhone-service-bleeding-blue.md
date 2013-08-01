@@ -1,6 +1,6 @@
 ---
 layout: post
-link: 
+link: http://chelseafancast.com/2013/07/bleeding-blue-we-are-are-you/
 author: chelseafancast
 categories: chelseafancast
 date: 2013-07-31 19:00:00
