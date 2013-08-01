@@ -7,6 +7,7 @@ CACHE MANIFEST
 
 CACHE:
 # items to cache.
+/offline.html
 
 # images
 /img/TheChels.me-header.jpg
