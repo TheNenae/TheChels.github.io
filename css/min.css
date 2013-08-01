@@ -107,9 +107,10 @@ ul.social {list-style-type:none; display:block; padding-left:0px;}
 ul.social li {display:inline; padding-right:2em; font-size:2em;}
 aside {height:2em; line-height:2em;}
 .pagination: {padding:5px; display:block;}
-ul.pages {display:block; padding-left:2px; padding-right:2px; margin:0px; border:3px solid #EEE; border-radius:4px;}
+ul.pages {display:block; padding-left:2px; padding-right:2px; border:3px solid #EEE; border-radius:4px; margin: auto auto; text-align:center;}
 ul.pages li {list-style-type:none; display:inline-block; padding-right:1em;}
-ul.pages li:last-child { padding-right:0px;}
+ul.pages li:first-child { padding-left:0px; float:left;}
+ul.pages li:last-child { padding-right:0px; float:right;}
 .previous {float:left;}
 .next {float:right;}
 @media only screen and (max-device-width:320px){#wrapper{width:95%} header img{width:95%}}
