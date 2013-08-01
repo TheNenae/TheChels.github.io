@@ -71,7 +71,8 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',sans-serif;}
 aside.ad{text-align:center;margin-left:auto;margin-right:auto;width:90%}
 #masterhead{padding:15px 0;margin:0px;}
 #masterhead nav{margin:0;text-align:center}
-#header{text-align:center;font-size:22px;width:100%;margin:0 0 5px 0;display:block;padding-bottom:.5em;border-bottom:1px solid #888}
+#header{text-align:center;font-size:22px;width:100%;margin:0 0 5px 0;display:block;padding-bottom:.5em; 
+border-bottom:3px solid #EEE;}
 header p{text-align:center}
 #header a{text-decoration:none}
 #header a:hover{text-decoration:underline}
