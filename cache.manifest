@@ -1,34 +1,34 @@
 CACHE MANIFEST
 # This is a comment.
-# Cache manifest version 2013.08-02.LUKAKU.v1.7.29
+# Cache manifest version 2013.08-02.LUKAKU.v1.7.30
 # Cache date 2012.08-02
 # If you change the version number in this comment,
 # the cache manifest is no longer byte-for-byte identical thats how we clear it.
 
 CACHE:
 # items to cache.
-/offline.html
+offline.html
 
 # images
-/img/TheChels.me-header.jpg
-/img/apple-touch-icon-ipad.png
-/img/apple-touch-icon-ipad3.png
-/img/apple-touch-icon-iphone.png
-/img/apple-touch-icon-iphone4.png
-/img/banner.jpg
-/img/default.png
-/img/default2x.png
-/img/default4x.png
-/img/favicon-msapplication-tileimage.png
-/img/favicon.ico
-/img/image.png
-/img/thechels.png
-/img/touch-icon-ipad.png
-/img/touch-icon-iphone.png
-/img/touch-icon-iphone4.png
+img/TheChels.me-header.jpg
+img/apple-touch-icon-ipad.png
+img/apple-touch-icon-ipad3.png
+img/apple-touch-icon-iphone.png
+img/apple-touch-icon-iphone4.png
+img/banner.jpg
+img/default.png
+img/default2x.png
+img/default4x.png
+img/favicon-msapplication-tileimage.png
+img/favicon.ico
+img/image.png
+img/thechels.png
+img/touch-icon-ipad.png
+img/touch-icon-iphone.png
+img/touch-icon-iphone4.png
 
 # Style
-/css/min.css
+css/min.css
 http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css
 http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.eot?v=3.2.1
 http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.eot?#iefix&v=3.2.1
@@ -38,11 +38,12 @@ http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.svg#f
 
 NETWORK:
 # All URLs that start with the following lines are whitelisted.
-/index.html
-/writers.html
-/archive.html
-/help.html
+index.html
+writers.html
+archive.html
+help.html
+*
 
 FALLBACK:
 # offline revert to cached page.
-/ /offline.html
+*.html offline.html
