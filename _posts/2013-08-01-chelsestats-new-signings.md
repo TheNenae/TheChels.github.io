@@ -14,7 +14,7 @@ in the first team set up</p>
 <p>The Blues have also annoucned the signing of Stipe Perica, the Croatian, from NK Zadar. The 18 year 
 old will join the CFC academy.</p>
 
-<p>Chelsea Ladies have also moved to promote Brett and Alane from the CFC Ladies centre of excellence 
+<p>Chelsea Ladies have also moved to promote Brett and Ayane from the CFC Ladies centre of excellence 
 to the first team squad, both 17, join 9 other outfield players
 in the first team squad aged 23 or less.</p>
 
