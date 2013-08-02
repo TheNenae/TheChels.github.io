@@ -1,7 +1,7 @@
 CACHE MANIFEST
 # This is a comment.
-# Cache manifest version 2013.07.31.LUKAKU.v1.7.26
-# Cache date 2012.07.31
+# Cache manifest version 2013.08-02.LUKAKU.v1.7.28
+# Cache date 2012.08-02
 # If you change the version number in this comment,
 # the cache manifest is no longer byte-for-byte identical thats how we clear it.
 
@@ -38,7 +38,10 @@ http://netdna.bootstrapcdn.com/font-awesome/3.2.1/font/fontawesome-webfont.svg#f
 
 NETWORK:
 # All URLs that start with the following lines are whitelisted.
-*
+/index.html
+/writers.html
+/archive.html
+/help.html
 
 FALLBACK:
 # offline revert to cached page.
