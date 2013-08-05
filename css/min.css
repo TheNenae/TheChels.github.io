@@ -76,7 +76,7 @@ border-bottom:3px solid #EEE;}
 header p{text-align:center}
 #header a{text-decoration:none}
 #header a:hover{text-decoration:underline}
-#header h2 a img {width:100%; max-width:380px;}
+#header img {width:100%; max-width:380px;}
 .post{padding:15px 0;line-height:1.5em}
 .single{padding:0}
 .post header{font-size:14px}
