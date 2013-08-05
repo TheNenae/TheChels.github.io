@@ -9,6 +9,6 @@ category: cfcacademyblog
 
 ---
 
-On a big for Wealdstone, with unveiling of their new stand at Grosvenor Vale and a penultimate game of 
+On a big day for Wealdstone, with unveiling of their new stand at Grosvenor Vale and a penultimate game of 
 pre season against a strong, but young Chelsea side, it was the blues who deservedly came out on top in 
 front of 1123 supporters...
