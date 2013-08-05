@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: Wealdstone 1-4 Chelsea U21s
 link: http://chelseaacademyreports.blogspot.co.uk/
-date: 2013-08-05 08:45:00
+date: 2013-08-05 09:00:00
 author: cfcacademyblog
 category: cfcacademyblog
 
