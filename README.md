@@ -8,22 +8,22 @@
 
 <p>Thechels.me was originally intended to be a social network but never really gained enough support or users compared to more traditional sites like twitter and facebook.</p>
 
-<p>This site aims to support bloggers and writers by providing an opprtunity to post content and links to their own articles on another site</p> 
+<p>This site aims to support bloggers and writers by providing an opportunity to post content and links to their own articles on another site</p> 
 
 <p>We don't publish content automatically and everything has to be submitted by the writer guaranteeing fresh news, opinions and thoughts from real fans you might not otherwise be aware of.</p>
     
 <p>As a writer/blogger this offers a great opportunity to get your site some hits or your content published and read by likeminded fans.</p>
 <p>For the reader, it can be seen as a curation of selected content relevant to you, in a quick and simple website that will work on all devices/browsers.</p>
     
-	
+
 <h4 id="art">Article Types</h4>
 
 <p>There are two types of content suitable for this site. Linked articles or blog articles.</p>
 
-<p><i class="icon-bookmark"></i> Linked articles are short posts linking to your content published elsewhere, We need a brief introduction or excerpt to really sell your article. 
+<p><i class="icon-bookmark"></i> Linked articles are short posts linking to your existing content published elsewhere, We need a brief introduction or excerpt to really sell your article and a link to the original post.
 This type of content can be identifed by the bookmark icon at the start of the title.</p>
 
-<p>Blog articles contain the full work and is hosted on our website. These articles can vary in length and come without tables, images or videos - If you have media to share then use the link article type.</p>
+<p>Blog articles contain the full work and is hosted on our website. These articles can vary in length and come without tables, images or videos - If you have media to share then use the link article type. We will only publish a full article on our site if it is exclusive, duplicate content is bad for the Internet.</p>
 
 <p>Articles need to be a certain format and you can see examples below.</p>
 
@@ -33,9 +33,16 @@ This type of content can be identifed by the bookmark icon at the start of the t
     
 <p>There are several ways to submit blog articles</p>
 
-<p>The quickest way to get something published is to open a <a href="https://github.com/">github account</a> and <a href="https://help.github.com/articles/fork-a-repo">fork the repo</a> which can be found at http://github.com/thechels/thechels.me, then create a <a href="http://daringfireball.net/projects/markdown/basics">markdown file</a> and <a href="https://help.github.com/articles/using-pull-requests">submit a pull request</a> this sounds complicated, but long term this makes it very easy for those published regularly.</p>
+<p>The quickest way to get something published is to open a <a href="https://github.com/">github account</a> 
+and <a href="https://help.github.com/articles/fork-a-repo">fork the repo</a> which can be found 
+at <a href="http://github.com/thechels/thechels.github.io">Github.com/TheChels</a>, then create 
+a <a href="http://daringfireball.net/projects/markdown/basics">markdown file</a> in the _posts folder
+and then <a href="https://help.github.com/articles/using-pull-requests">submit a pull request</a> this sounds 
+complicated and is more suited to developers, but long term this makes it very easy for those published regularly.</p>
 
-<p>The next and slowest way is to email editor@thechels.co.uk with either attaching a text document. Do not send Microsoft Word documents, they are as useful to us as the trophy cabinet at the Emirates. That is the sort of thing an Arsenal fan would do.</p>
+<p>The next and slowest way is to email editor@thechels.co.uk with either attaching a text document (.md or .txt). 
+Do not send Microsoft Word documents, they are as useful to us as the trophy cabinet at the Emirates. 
+That is the sort of thing an Arsenal fan would do.</p>
 
   
 <h4 id="blog"></h4>    
@@ -81,13 +88,12 @@ categories: yourtwittername
 ---</code>	
 </pre>
 
-		
+
 <h4 id="author">Author Pages</h4>
 <p>Author pages need some basic info about you, as much or as little as you please, the minimum is your name: again, send this and updates to this in a text file.</p>
 
 <pre>
-<code>
----
+<code>---
 layout: author
 title: ChelseaStats
 author: chelseastats
@@ -100,15 +106,14 @@ github: http://github.com/TheChels
 pinterest: http://pinterest.com/chelseastats/chelsea/
 youtube: http://www.youtube.com/user/ChelseaStats/
 ---
-<p>Here you can right a brief bio, mention your websites, favourite games/players etc</p>
-</code>
+<p>Here you can right a brief bio, mention your websites, favourite games/players etc</p></code>
 </pre>
-
+    
 <h4 id="other">Other Information</h4>
 
 <p>The site is open source, built using Jekyll & ruby and is hosted on 
 <a href="http://github.com/TheChels">github.com</a>. All content is copyright their respective 
-authors and all images are copyright thechels.org and may not be used without expressed written consent.</p>
+owners and all images are copyright thechels.org and may not be used without expressed written consent.</p>
 
     <p>
         <small><i class="icon-star"></i> Thanks, your TheChels.me team</small>
