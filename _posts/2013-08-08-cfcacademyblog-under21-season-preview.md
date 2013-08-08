@@ -1,0 +1,17 @@
+
+---
+layout: post
+title: Under 21 Season Preview
+link: http://thechels.co.uk
+date: 2013-08-04 10:00:00
+author: cfcacademyblog
+categories: cfcacademyblog
+
+---
+
+
+After a long wait and a successful pre season full of excitement and anticipation, the under 21 league finally begins this week. 
+
+Dermot Drummy's U21 side will be back in action, playing their first competitive match tomorrow, kicking off the league campaign with a tough tie against last season's runners up 
+
+Tottenham. Spurs who lost out on the national title last year
