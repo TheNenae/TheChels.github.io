@@ -4,6 +4,7 @@ title: Preseason Tactics
 date: 2013-08-08 16:00:00
 author: sosreport
 categories: sosreport
+
 ---
 
 The first 3 games of Chelsea's preseason tour in Asia focused on one thing tactically: Establishing a solid base, to create familiarity with shape and basic positioning. This work was applied in 2 systems, the 4231 against Singha and Malaysia, then a 433 against Indonesia.
