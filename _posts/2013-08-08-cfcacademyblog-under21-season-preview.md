@@ -3,7 +3,7 @@
 layout: post
 title: Under 21 Season Preview
 link: http://chelseaacademyreports.blogspot.co.uk/2013/08/under-21-league-preview.html
-date: 2013-08-04 10:00:00
+date: 2013-08-08 12:00:00
 author: cfcacademyblog
 categories: cfcacademyblog
 
