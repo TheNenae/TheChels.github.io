@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Loan report 3-8th August 2013
 link: http://thechels.net/2013/08/the-loan-report-august-8-11
