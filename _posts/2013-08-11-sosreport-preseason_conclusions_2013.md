@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Preseason Tactics: Conclusions & Beginnings
-date: 2013-08-11 14:00:00
-author: SOSReport
-handle: twitter.com/SOSReport
-categories: SOSReport
+date: 2013-08-11 18:00:00
+author: sosreport
+categories: sosreport
+
 --- 
 
 With the basic shapes and concepts well understood and rehearsed by all in the first 5 games of preseason, the final 2 games have seen a remarkable variation in shapes, patterns and personnel. At least 6 changes of formation have occurred within the last 180 minutes of football. From a deep lying 433 in the first half at Real Madrid, changing in the 2nd to 4231 with advanced wingers, adding a holding midfielder for a 4141, back to a 4231 to start at Roma, changing to an attacking 433 with no fixed striker in the 2nd, briefly returning to a 4231 before finishing in a back 3 with Van Ginkel sweeping, 2 strikers, Ramires at right back and Oscar and Hazard playing through the middle. Mourinho taking the opportunity to simulate the conditions of a must win scenario, his team at 1-1 presumably heading out on imaginary away goals in the 1st knockout rounds of the Champions League, imploring his troops to pour forward until finally Lukaku gets a yard in a crowded box and pokes home a winner. Through to the next round and onto the season proper.
