@@ -4,7 +4,7 @@ link: hhttp://thechels.net/2013/08/academy-season-preview-part-three-the-blues/
 title: Academy preview part three
 author: chelseayouth
 categories: chelseayouth
-date: 2013-08-12 08:00:00
+date: 2013-08-11 23:00:00
 
 ---
 
