@@ -41,7 +41,7 @@ description: Chelsea FC blogging
       {% if paginator.previous_page == 1 %}
         <a href="/"><i class="icon-long-arrow-left"></i></a>
       {% else %}
-        <a href="/{{ paginator.previous_page_path }}"><i class="icon-long-arrow-left"></i></a>
+        <a href="{{site.url}}/{{ paginator.previous_page_path }}"><i class="icon-long-arrow-left"></i></a>
       {% endif %}
     </li>
   {% else %}
@@ -67,7 +67,7 @@ description: Chelsea FC blogging
     {% endfor %}     
     
   {% if paginator.next_page %}
-    <li class="next"><a href="/{{ paginator.next_page_path }}"><i class="icon-long-arrow-right"></i></a></li>
+    <li class="next"><a href="{{site.url}}/{{ paginator.next_page_path }}"><i class="icon-long-arrow-right"></i></a></li>
   {% else %}
     <li class="next"><span><i class="icon-long-arrow-right"></i></span></li>
   {% endif %}
