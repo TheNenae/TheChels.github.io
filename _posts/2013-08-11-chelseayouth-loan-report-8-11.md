@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Loan report 3-8th August 2013
+title: Loan report 8-11th August 2013
 link: http://thechels.net/2013/08/the-loan-report-august-8-11
-date: 2013-07-11 21:00:00
+date: 2013-08-12 07:00:00
 categories: chelseayouth
 author: chelseayouth
 
