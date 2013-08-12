@@ -53,9 +53,9 @@ That is the sort of thing an Arsenal fan would do.</p>
 <code>---
 layout: post
 title: Lukaku stats report
-date: 2013-07-11 22:00:00
-author: ChelseaStats
-handle: twitter.com/ChelseaStats
+date: 2013-08-08 22:00:00
+author: yourtwittername
+categories: yourtwittername
 ---
 
 And here is your full text article, we don't want any images, as they can be slow to load and this site is built for mobile devices as well as desktop computers. you can use html if you like. or just space you content out for paragraphs.
@@ -71,22 +71,14 @@ If you are not sure how to code for the web just put in things like &lt;bold&gt;
 <code>---
 layout: post
 title: Lukaku stats report
-link: http://thechels.co.uk
-date: 2013-07-11 22:00:00
+link: http://thechels.co.uk/to-the-article/
+date: 2013-08-08 22:00:00
 author: yourtwittername
+categories: yourtwittername
 ---
 
 And here is brief description to really sell what you are writing about. You can use &lt;i&gt;<i>italics</i>&lt;/i&gt;, &lt;b&gt;<b>bold text</b>&lt;/b&gt; and other basic html if you know how. You should really read this, the information is frighteningly good, no wonder Jamie Carragher had to retire.
 </code></pre>
-
-
-<p>If you want an author page on our site thechels.me/yourusername or you already have one then include the following line in the top part of your file, inside the dashes.</p>
-
-<pre>
-<code>---
-categories: yourtwittername
----</code>	
-</pre>
 
 
 <h4 id="author">Author Pages</h4>
