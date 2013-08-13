@@ -3,7 +3,6 @@ description : Chelsea FC Blogging
 tagline : Chelsea FC Blogging
 safe: true
 auto: true
-server: true
 future: false
 lsi: false
 paginate: 3
@@ -14,7 +13,6 @@ destination: ./_site
 layouts:     ./_layouts
 includes:     ./_includes
 disqus_shortname: thechelsme
-google_analytics_id: True
 permalink: /:categories/:title/
 
 ## Variables

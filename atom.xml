@@ -16,11 +16,11 @@ layout: nil
 
  {% for post in site.posts %}
  <entry>
-   <title>{{ post.title | xml_escape }} by @{{ post.categories | xml_escape }}</title>
+   <title>{{ post.title | xml_escape }} by {{ post.author | xml_escape }}</title>
    <link href="http://thechels.me{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://thechels.me{{ post.id }}</id>
-   <author>@{{ post.categories }}</author>
+   <author>{{ post.author | xml_escape }}</author>
    <content type="html">{{ post.content | xml_escape }}
        <p><a href="http://thechels.me{{ post.url }}">★</a></p>
      </content>
