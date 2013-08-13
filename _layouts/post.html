@@ -18,7 +18,7 @@ layout: layout
 	<p> 
             <small>
                  <a href="{{ post.url }}" class="permalink" title="Permalink"><i class="icon-star"></i></a> 
-                 by <a href="/{{ page.categories }}">{{ page.categories }}</a> → dated: {{ page.date | date: "%Y-%m-%d" }} 
+                 by <a href="/{{ page.author }}">{{ page.author }}</a> → dated: {{ page.date | date: "%Y-%m-%d" }} 
                 <a href="{{ post.url }}" class="comment" title="comment">Comment</a> → 
             </small>
         </p>
@@ -31,7 +31,8 @@ layout: layout
       		<li>
                 <small> 
                    <a href="{{ post.url }}"><i class="icon-star"></i></a> 
-                    <a href="{{ post.url }}">{{ post.title }}</a> by <a href="/{{post.categories}}">{{post.categories}}</a> dated: {{ post.date | date: "%Y-%m-%d" }} →
+                    <a href="{{ post.url }}">{{ post.title }}</a> 
+                    by <a href="/{{post.author}}">{{post.author}}</a> dated: {{ post.date | date: "%Y-%m-%d" }} →
                 </small>
             </li>
     		{% endfor %}
