@@ -8,13 +8,13 @@ layout: author
 		<section>
 
 {% if page.sex == 'male' %}
-<h3><i class="icon-male"></i> {{page.author}}</h3>
+<h3><i class="icon-male"></i> {{page.categories}}</h3>
 {% elsif page.sex == 'female' %}
-<h3><i class="icon-female"></i> {{page.author}}</h3>
+<h3><i class="icon-female"></i> {{page.categories}}</h3>
 {% elsif page.sex == 'group' %}       
-<h3><i class="icon-group"></i>  {{page.author}}</h3>
+<h3><i class="icon-group"></i>  {{page.categories}}</h3>
 {% else %}              
-<h3><i class="icon-anchor"></i> {{page.author}}</h3>
+<h3><i class="icon-anchor"></i> {{page.categories}}</h3>
 {% endif %}
 
 <h6>Bio</h6>
@@ -33,10 +33,10 @@ layout: author
 {% if page.dropbox %}  <li><a href="{{page.dropbox}}"><i class="icon-dropbox"></i></a></li>{% endif %}    
 </ul>
 
-<h6>Articles by {{page.author}}</h6>
+<h6>Articles by {{page.categories}}</h6>
 <ul class="posts">
 {% for p in site.posts do %}
-  {% if p.author == page.author %}
+  {% if p.categories == page.categories %}
     <li>
         <small>
             <a href="{{ p.url }}"><i class="icon-star"></i></a> → 
