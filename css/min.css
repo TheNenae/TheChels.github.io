@@ -5,12 +5,6 @@ html,button,input,select,textarea{font-family:sans-serif}
 body{margin:0}
 a:focus{outline:thin dotted}
 a:hover,a:active{outline:0}
-h1{font-size:2em;margin:.67em 0}
-h2{font-size:1.5em;margin:.83em 0}
-h3{font-size:1.17em;margin:1em 0}
-h4{font-size:1em;margin:1.33em 0}
-h5{font-size:.83em;margin:1.67em 0}
-h6{font-size:.75em;margin:2.33em 0}
 abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
 blockquote{margin:1em 40px}
@@ -54,9 +48,9 @@ h3{font-size:18px}
 h4{font-size:16px}
 h5{font-size:14px}
 h6{font-size:12px;text-decoration:underline}
-h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue', tahoma, sans-serif;}
-.os4{font-family:'Open Sans',tahoma,sans-serif;font-weight:400}
-.os7{font-family:'Open Sans',tahoma,sans-serif;font-weight:700}
+h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',Tahoma,sans-serif;}
+.os4{font-family:'Open Sans','Helvetica Neue',tahoma,sans-serif;font-weight:400}
+.os7{font-family:'Open Sans','Helvetica Neue',tahoma,sans-serif;font-weight:700}
 aside.ad{text-align:center;margin-left:auto;margin-right:auto;width:90%}
 #masterhead{padding:15px 0;margin:0px;}
 #masterhead nav{margin:0;text-align:center}
