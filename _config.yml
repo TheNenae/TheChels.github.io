@@ -15,7 +15,7 @@ layouts:     ./_layouts
 includes:     ./_includes
 disqus_shortname: thechelsme
 google_analytics_id: True
-permalink: /:categories/:title/
+permalink: /:author/:title/
 ## permalink: /:year/:month/:day/:title
 
 ## Variables
