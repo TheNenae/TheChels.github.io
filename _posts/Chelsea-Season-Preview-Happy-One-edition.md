@@ -4,7 +4,7 @@ title: Chelsea Season Preview - Happy One edition
 link: http://blog.footballrascal.com/the-happy-ones-return-boost-chelseas-hopes/
 date: 2013-08-13 11:00:00
 
-categories: cfc_jb
+author: cfc_jb
 
 ---
 

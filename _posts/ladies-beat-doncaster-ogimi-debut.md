@@ -3,7 +3,7 @@
 layout: post
 title: Chelsea Ladies 4-0 Doncaster Rovers Belles
 link: http://blogs.chelseafc.com/?p=3317
-categories: chelseastats
+author: chelseastats
 date: 2013-08-06 17:00:00
 
 ---

@@ -4,7 +4,7 @@ layout: post
 title: Preseason Tactics - Conclusions & Beginnings
 date: 2013-08-11 18:00:00
 
-categories: sosreport
+author: sosreport
 
 --- 
 

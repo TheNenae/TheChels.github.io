@@ -3,7 +3,7 @@ layout: post
 link: http://thechels.net/2013/08/academy-season-preview-part-one-the-competitions/
 title: Academy preview part one
 
-categories: chelseayouth
+author: chelseayouth
 date: 2013-08-08 14:00:00
 
 ---

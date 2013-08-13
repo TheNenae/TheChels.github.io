@@ -3,7 +3,7 @@ layout: post
 title: Preseason Tactics
 date: 2013-08-08 16:00:00
 
-categories: sosreport
+author: sosreport
 
 ---
 

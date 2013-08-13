@@ -3,7 +3,7 @@ layout: post
 link: http://thechels.net/2013/08/academy-season-preview-part-two-the-opposition/
 title: Academy preview part two
 
-categories: chelseayouth
+author: chelseayouth
 date: 2013-08-08 15:00:00
 
 ---

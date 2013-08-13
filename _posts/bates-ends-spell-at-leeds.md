@@ -2,7 +2,7 @@
 layout: post
 title: Bates ends spell at Leeds
 
-categories: chelseastats
+author: chelseastats
 date: 2013-07-26 19:12:00
 
 ---

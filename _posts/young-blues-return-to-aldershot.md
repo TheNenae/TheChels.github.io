@@ -4,7 +4,7 @@ layout: post
 link: http://thechels.net/2013/08/young-blues-to-return-to-aldershot/
 title: Young blues return to Aldershot
 date: 2013-08-01 11:00:00
-categories: chelseayouth
+author: chelseayouth
 
 ---
 

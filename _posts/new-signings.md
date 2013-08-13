@@ -3,7 +3,7 @@
 layout: post
 title: Signings
 date: 2013-08-01 19:30:00
-categories: chelseastats
+author: chelseastats
 
 
 ---

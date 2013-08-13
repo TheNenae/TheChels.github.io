@@ -2,7 +2,7 @@
 
 layout: post 
 date: 2013-08-02 21:30:00
-categories: chelseastats
+author: chelseastats
 
 title: Adam Coombes at Notts County
 

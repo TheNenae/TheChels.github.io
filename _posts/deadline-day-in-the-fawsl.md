@@ -4,7 +4,7 @@ layout: post
 title: Deadline day for WSL
 description: Deadline day for WSL
 date: 2013-08-01 10:00:00
-categories: chelseastats
+author: chelseastats
 
 ---
 

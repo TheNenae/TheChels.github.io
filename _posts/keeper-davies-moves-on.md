@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keeper Davies moves on
-categories: chelseastats
+author: chelseastats
 
 date: 2013-08-02 09:00:00
 

@@ -3,7 +3,7 @@ layout: post
 title: Sutton United 0-4 Chelsea Under-21s
 link: http://thechels.net/2013/07/under-21s-sutton-united-0-4-chelsea/
 date: 2013-07-24 07:00:00
-categories: chelseayouth
+author: chelseayouth
 
 
 ---
