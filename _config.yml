@@ -16,7 +16,6 @@ includes:     ./_includes
 disqus_shortname: thechelsme
 google_analytics_id: True
 permalink: /:categories/:title/
-## permalink: /:year/:month/:day/:title
 
 ## Variables
 baseurl: /
