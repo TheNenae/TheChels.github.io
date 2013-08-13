@@ -15,9 +15,10 @@ layouts:     ./_layouts
 includes:     ./_includes
 disqus_shortname: thechelsme
 google_analytics_id: True
-permalink: /:year/:month/:day/:title
+permalink: :category/:title/
+## permalink: /:year/:month/:day/:title
 
 ## Variables
-baseurl: http://thechels.me
+baseurl: /
 url : http://thechels.me
 production_url : http://thechels.me
