@@ -71,7 +71,7 @@ If you are not sure how to code for the web just put in things like &lt;bold&gt;
 <code>---
 layout: post
 title: Lukaku stats report
-link: http://thechels.co.uk/to-the-article/
+link: http://thechels.co.uk/permalinke-to-the-article/
 date: 2013-08-08 22:00:00
 author: yourtwittername
 categories: yourtwittername
