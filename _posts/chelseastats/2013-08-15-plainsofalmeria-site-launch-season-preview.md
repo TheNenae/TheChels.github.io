@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PLains of Almeria Site Launch
+title: Plains of Almeria Site Launch
 date: 2013-08-15 20:30:00
 link: http://plainsofalmeria.co.uk/2013/08/12/plains-of-almeria-season-preview-201314-donate-download-now/
 author: chelseastats
