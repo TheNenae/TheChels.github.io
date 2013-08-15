@@ -2,8 +2,8 @@
 layout: post
 title: EPL: My Preview 
 link: wp.me/p2zvCh-3
-author: MbesTommyCFC
-categories: MbesTommyCFC
+author: mbestommycfc
+categories: mbestommycfc
 date: 2013-08-16 00:30:00
 
 ---
