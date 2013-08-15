@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EPL: My Preview 
+title: Premier League Preview 
 link: wp.me/p2zvCh-3
 author: mbestommycfc
 categories: mbestommycfc
