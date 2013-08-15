@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistical Preview: Chelsea Vs Hull City
-date: 2013-08-15 21:00:00
+date: 2013-08-15 21:15:00
 link: http://www.thechels.co.uk/4414-statistical-preview-chelsea-vs-hull-city/
 author: chelseastats
 categories: chelseastats
