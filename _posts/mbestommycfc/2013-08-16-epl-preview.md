@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Premier League Preview 
-link: wp.me/p2zvCh-3
+link: http://wp.me/p2zvCh-3
 author: mbestommycfc
 categories: mbestommycfc
 date: 2013-08-16 00:30:00
